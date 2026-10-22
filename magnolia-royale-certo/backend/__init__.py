@@ -1,0 +1,1 @@
+"""API acadêmica Magnolia Royale."""

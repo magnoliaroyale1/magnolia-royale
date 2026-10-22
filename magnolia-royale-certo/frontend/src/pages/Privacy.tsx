@@ -1,0 +1,10 @@
+import { Container, Row, Col } from 'react-bootstrap';
+export const Privacy = () => <Container className="py-5 mt-5"><Row className="justify-content-center"><Col md={8}>
+<h1 className="font-serif fw-bold text-olive mb-4">Privacidade na demonstração</h1>
+<p>Esta versão acadêmica utiliza contas e clínicas fictícias. Use dados de demonstração durante a apresentação.</p>
+<section className="mb-4"><h5 className="fw-bold text-olive">Dados e acesso</h5><p>Cadastros, agendamentos, avaliações, preferências e mensagens ficam no banco local. Clientes acessam seus registros; a equipe da clínica acessa seus atendimentos; administradores acompanham a gestão. Avaliações e perfis de clínicas aprovadas são públicos.</p></section>
+<section className="mb-4"><h5 className="fw-bold text-olive">Arquivos e e-mails</h5><p>Fotos da galeria são públicas. Documentos do questionário ficam disponíveis para o responsável e o administrador. No modo de demonstração, links de verificação e recuperação ficam na caixa de e-mails local, destinada exclusivamente aos cadastros fictícios.</p></section>
+<section className="mb-4" id="cookies"><h5 className="fw-bold text-olive">Cookies essenciais</h5><p>O cookie de sessão mantém o acesso à conta. A preferência de fechar o aviso fica no navegador. Esta versão não inclui ferramenta de análise de navegação. Imagens e fontes externas do visual original podem exigir conexão à internet.</p></section>
+<section className="mb-4"><h5 className="fw-bold text-olive">Perfil e desativação</h5><p>Você pode atualizar seu perfil e senha no painel. Desativar uma conta encerra o acesso e preserva os registros de atendimentos e avaliações. A demonstração não possui eliminação automática desses registros.</p></section>
+<section className="mb-4"><h5 className="fw-bold text-olive">Planos e contato</h5><p>O checkout é uma simulação, sem cobrança e sem coleta de dados de cartão. O formulário de contato e o chat registram mensagens dentro desta instalação.</p></section>
+</Col></Row></Container>;

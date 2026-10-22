@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5C7A4B"/>
+      <stop offset="100%" stop-color="#4A6640"/>
+    </linearGradient>
+    <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#F0ECE5"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#B8943A"/>
+    </linearGradient>
+  </defs>
+  <!-- Pétalas -->
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(0 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(45 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(90 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(135 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(180 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(225 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(270 50 50)" opacity="0.9"/>
+  <ellipse cx="50" cy="38" rx="12" ry="28" fill="url(#petalGrad)" transform="rotate(315 50 50)" opacity="0.9"/>
+  <!-- Centro da flor -->
+  <circle cx="50" cy="50" r="10" fill="url(#goldGrad)"/>
+  <!-- Folhas -->
+  <ellipse cx="28" cy="72" rx="18" ry="8" fill="url(#leafGrad)" transform="rotate(-30 28 72)"/>
+  <ellipse cx="72" cy="72" rx="18" ry="8" fill="url(#leafGrad)" transform="rotate(30 72 72)"/>
+</svg>
