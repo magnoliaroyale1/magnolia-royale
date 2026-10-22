@@ -9,7 +9,7 @@ O projeto foi desenvolvido como aplicação **frontend + API + banco de dados**,
 
 | Camada | Tecnologias |
 | --- | --- |
-| Interface | React, TypeScript, React Bootstrap, CSS e Vite |
+| Interface | CSS e Vite |
 | API | Python 3.11+, Flask |
 | Persistência e mapeamento | Flask-SQLAlchemy, SQLAlchemy, PyMySQL |
 | Banco de dados | MySQL 8.4 (instância local portátil na configuração automática) |
