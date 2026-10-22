@@ -13,13 +13,12 @@ O projeto foi desenvolvido como aplicação **frontend + API + banco de dados**,
 | API | Python 3.11+, Flask |
 | Persistência e mapeamento | Flask-SQLAlchemy, SQLAlchemy, PyMySQL |
 | Banco de dados | MySQL 8.4 (instância local portátil na configuração automática) |
-| Testes | pytest, Vitest e React Testing Library |
 
 ## Arquitetura da aplicação
 
 Cada funcionalidade é executada por meio do fluxo:
 
-**Interface React → API Flask → Controller → Service → Model/Repository → MySQL**
+**Interface → API Flask → Controller → Service → Model/Repository → MySQL**
 
 - **Interface:** apresenta formulários, listagens e ações do usuário, consumindo os endpoints HTTP da API.
 - **Controllers:** classes organizadas por recurso, responsáveis por interpretar requisições, acionar o caso de uso correspondente e construir a resposta HTTP, sem implementar regras de negócio.
