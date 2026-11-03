@@ -8,7 +8,7 @@
 ```mermaid
 flowchart TD
     A([Início: cliente abre Meu Painel])
-    B[Frontend React: seleciona Remarcar em um agendamento]
+    B[Frontend: seleciona Remarcar em um agendamento]
     C[Frontend solicita horários livres à API Flask via HTTP GET]
     D[DisponibilidadeController recebe a consulta]
     E[ConsultarDisponibilidadeService valida clínica, profissional e agenda]
