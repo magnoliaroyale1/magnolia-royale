@@ -7,7 +7,7 @@
 ```mermaid
 flowchart TD
     A([Início: usuário abre Relatórios Financeiros])
-    B[Frontend React exibe filtros de data inicial e final]
+    B[Frontend exibe filtros de data inicial e final]
     C[Frontend usa useClinicReports para consultar a API]
     D[HTTP GET /api/clinics/ID/reports com start e end]
     E[Flask encaminha a requisição à rota de relatório]
