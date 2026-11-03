@@ -157,8 +157,10 @@ Além dos testes automatizados, a validação funcional deve incluir a execuçã
 
 - **[Matriz das 20 funcionalidades](docs/funcionalidades.md):** telas, endpoints, Controllers, Services e entidades ou Repositories utilizados.
 - **[Instalação e configuração](docs/instalacao.md):** execução automática, utilização de MySQL externo, recompilação do frontend e solução de problemas.
-- **[Diagrama de classes UML](docs/diagrama_classes.md):** classes do domínio, principais atributos, relacionamentos e herança.
-- - **Vídeo Demonstrativo:** https://drive.google.com/file/d/1Org3x1gK1FyLknjHvYuIa3jrxeN3JS5_/view?usp=sharing
+- **[Diagrama de classes UML](docs/diagrama_classes.md)**
+- **[Fluxograma de Recuperação de Dados](docs\fluxograma_recuperacao.md)** 
+- **[Fluxograma de Entrada de Dados](docs\fluxograma_entrada.md)** 
+- **Vídeo Demonstrativo (da atividade do dia 5 de outubro):** https://drive.google.com/file/d/1Org3x1gK1FyLknjHvYuIa3jrxeN3JS5_/view?usp=sharing
 
 ## Considerações sobre o ambiente
 
