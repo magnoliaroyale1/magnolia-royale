@@ -48,8 +48,6 @@ class CrudModel(db.Model):
         db.session.delete(self)
         db.session.flush()
 
-    # Nomes de CRUD exigidos na rubrica. O comportamento transacional e os
-    # métodos antigos permanecem compatíveis com o restante da aplicação.
     @classmethod
     def buscar_por_id(cls, id, bloquear=False):
         return cls.buscar(id, bloquear=bloquear)
