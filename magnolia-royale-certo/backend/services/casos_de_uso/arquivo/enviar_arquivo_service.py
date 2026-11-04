@@ -1,4 +1,3 @@
-"""Caso de uso EnviarArquivoService: uma ação pública, com validações e persistência nas Models/Repositories."""
 import secrets
 from flask import current_app
 from werkzeug.utils import secure_filename
