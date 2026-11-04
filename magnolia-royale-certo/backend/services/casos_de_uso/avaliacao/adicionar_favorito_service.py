@@ -1,4 +1,3 @@
-"""Caso de uso AdicionarFavoritoService: uma ação pública, com validações e persistência nas Models/Repositories."""
 from backend.errors import AppError
 from backend.models import Avaliacao, Agendamento, Clinica, Procedimento, Favorito
 from backend.services.base import BaseService, texto, inteiro
@@ -11,7 +10,7 @@ class AdicionarFavoritoService(BaseService):
         remove = False
         user = self.usuario(['client'])
         self.clinica(clinic_id)
-        # Bloqueio do usuário evita duplicidade em cliques simultâneos.
+        # p não duplicar em varios cliques
         from backend.models import Usuario
         Usuario.buscar(user.id, bloquear=True)
         item = Favorito.primeiro(userId=user.id, clinicId=clinic_id)
