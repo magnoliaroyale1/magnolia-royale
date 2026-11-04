@@ -5,11 +5,6 @@ from backend.errors import AppError
 
 
 class CrudModel(db.Model):
-    """CRUD compartilhado pelas Models. A transação termina na Controller.
-
-    flush envia o INSERT ao MySQL, mas permite desfazer toda a operação
-    caso um segundo cadastro relacionado falhe.
-    """
     __abstract__ = True
     id = db.Column(db.Integer, primary_key=True)
 
