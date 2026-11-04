@@ -1,4 +1,3 @@
-"""Caso de uso EmitirTokenService: uma ação pública, com validações e persistência nas Models/Repositories."""
 import hashlib
 import json
 import secrets
