@@ -1,4 +1,3 @@
-"""Apoio compartilhado para autenticação, autorização e normalização."""
 import re
 from datetime import date, datetime, timedelta
 from backend.errors import AppError
