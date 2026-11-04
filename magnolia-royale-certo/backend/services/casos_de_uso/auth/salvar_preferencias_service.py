@@ -1,4 +1,3 @@
-"""Atualiza exclusivamente as preferências persistidas do cliente."""
 from backend.errors import AppError
 from backend.services.base import BaseService, inteiro
 
