@@ -1,4 +1,3 @@
-"""Caso de uso AtualizarClinicaService: uma ação pública, com validações e persistência nas Models/Repositories."""
 import re
 from datetime import date, datetime, timedelta
 from backend.errors import AppError
