@@ -1,4 +1,3 @@
-"""Caso de uso ListarMensagensService: uma ação pública, com validações e persistência nas Models/Repositories."""
 from backend.errors import AppError
 from backend.models import Conversa, Mensagem, Clinica, Usuario, Notificacao
 from backend.models.usuario import agora
