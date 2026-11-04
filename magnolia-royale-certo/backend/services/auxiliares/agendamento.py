@@ -1,4 +1,3 @@
-"""Apoio compartilhado para autenticação, autorização e normalização."""
 from datetime import datetime, date, timezone, timedelta
 from backend.errors import AppError
 from backend.models import Agendamento, HistoricoAgendamento, Profissional, Clinica, Procedimento, ProfissionalProcedimento, Agenda, Notificacao
