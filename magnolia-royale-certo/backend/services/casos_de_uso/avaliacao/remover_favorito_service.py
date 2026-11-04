@@ -10,7 +10,7 @@ class RemoverFavoritoService(BaseService):
         remove = True
         user = self.usuario(['client'])
         self.clinica(clinic_id)
-        # Bloqueio do usuário evita duplicidade em cliques simultâneos.
+        # p não duplicar em varios cliques
         from backend.models import Usuario
         Usuario.buscar(user.id, bloquear=True)
         item = Favorito.primeiro(userId=user.id, clinicId=clinic_id)
