@@ -1,4 +1,3 @@
-"""Apoio compartilhado para autenticação, autorização e normalização."""
 import hashlib
 import json
 import secrets
