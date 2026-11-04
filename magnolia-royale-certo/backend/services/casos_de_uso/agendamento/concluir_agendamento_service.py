@@ -1,4 +1,3 @@
-"""Caso de uso ConcluirAgendamentoService: regras de uma ação de agendamento."""
 from datetime import datetime, date, timezone, timedelta
 from backend.errors import AppError
 from backend.models import Agendamento, HistoricoAgendamento, Profissional, Clinica, Procedimento, ProfissionalProcedimento, Agenda, Notificacao
