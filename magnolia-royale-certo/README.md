@@ -162,6 +162,9 @@ Além dos testes automatizados, a validação funcional deve incluir a execuçã
 - **[Fluxograma de Entrada de Dados](docs/fluxograma_entrada.md)** 
 - **Vídeo Demonstrativo (da atividade do dia 5 de outubro):** https://drive.google.com/file/d/1Org3x1gK1FyLknjHvYuIa3jrxeN3JS5_/view?usp=sharing
 
+- **Apresentação (Slides):** https://canva.link/fs09z18j1hp957t
+- **Vídeo Demonstrativo (apresentação):** https://drive.google.com/file/d/1IvnRxGWLsRiRw13OYfaZeyqqSd4DoDLh/view?usp=sharing
+
 ## Considerações sobre o ambiente
 
 O Magnolia Royale é uma aplicação acadêmica preparada para execução e avaliação em ambiente local. O banco é inicializado com **dados fictícios**, e a confirmação de e-mail é simulada em uma caixa de mensagens interna. O módulo de checkout, quando utilizado, é demonstrativo e não realiza cobranças reais; os relatórios financeiros são baseados nos valores registrados em atendimentos concluídos.
